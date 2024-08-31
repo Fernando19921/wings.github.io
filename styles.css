@@ -1,0 +1,47 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer .social-icons a {
+    font-size: 1.5rem;
+}
+
+footer .social-icons i {
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover i {
+    color: #ddd;
+}
+
+/* Custom Styles for Menu Section */
+.menu-section {
+    background-color: #f8f9fa;
+}
+
+.menu-category {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-category .card {
+    border: none;
+    border-radius: 8px;
+    cursor: pointer; /* Cambia el cursor a mano cuando se pasa sobre la tarjeta */
+}
+
+.menu-category .card-body {
+    text-align: center;
+}
